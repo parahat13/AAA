@@ -5,3 +5,6 @@ print "Pass"
 }else{
 print "Fail"
 }
+
+WebDriver driver= new ChromeDriver();
+
