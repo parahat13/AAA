@@ -26,6 +26,9 @@ public class ArrayListExample {
 		list.clear();
 		
 		System.out.println(list);
+		System.out.println(list);
+		System.out.println(list);
+		
 		
 		
 	}
