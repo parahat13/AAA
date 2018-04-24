@@ -17,6 +17,14 @@ public class ArrayListExample {
 		list.add("APPLE");
 		list.add("ORANGE");
 		
+		list.add("water");
+		list.add("coffee");
+		list.add("bottle");
+		list.add("cup");
+		list.add("APPLE");
+		list.add("ORANGE");
+		
+		
 		
 		System.out.println(list.indexOf("coffee"));
 		
