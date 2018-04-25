@@ -37,9 +37,15 @@ public class ArrayListExample {
 		
 		list.clear();
 		
-		System.out.println(list);
-		System.out.println(list);
-		System.out.println(list);
+		String[] array=list.toArray(new String[4]);
+		Arrays.sort(array);
+		System.out.println(Arrays.binarySearch(array, "bottle"));
+		
+		List<List<Integer>> lis= new ArrayList<>();
+		
+		list.clear();
+		
+		
 		
 		
 		
