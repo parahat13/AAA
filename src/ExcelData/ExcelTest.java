@@ -11,7 +11,7 @@ public class ExcelTest {
 	public static void main(String[] args) throws IOException {
 
 		ExcelUtilClass.openExcelFile("C:\\Users\\Home\\eclipse-workspace\\AAA\\dataFiles\\ExcelData.xlsx", "data");
-		
+		System.out.println("To get  data from excel");
 		
 		List<String> data = new ArrayList<String>();
 
