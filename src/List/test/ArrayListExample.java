@@ -10,12 +10,6 @@ public class ArrayListExample {
 		//Test
 		
 		List<String> list= new ArrayList<>();
-		list.add("water");
-		list.add("coffee");
-		list.add("bottle");
-		list.add("cup");
-		list.add("APPLE");
-		list.add("ORANGE");
 		
 		list.add("water");
 		list.add("coffee");
