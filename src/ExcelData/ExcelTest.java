@@ -19,6 +19,12 @@ public class ExcelTest {
 			data.add(ExcelUtilClass.getCellData(0, i));
 			System.out.print(data.get(i)+"\t");
 		}
+		
+		for (int i = 0; i <4; i++) {
+			data.add(ExcelUtilClass.getCellData(0, i));
+			System.out.print(data.get(i)+"\t");
+		}
+		
 
 	}
 
