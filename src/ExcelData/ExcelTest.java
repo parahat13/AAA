@@ -12,7 +12,7 @@ public class ExcelTest {
 
 		ExcelUtilClass.openExcelFile("C:\\Users\\Home\\eclipse-workspace\\AAA\\dataFiles\\ExcelData.xlsx", "data");
 		System.out.println("To get  data from excel");
-		
+		System.out.println("Testcase1");
 		List<String> data = new ArrayList<String>();
 
 		for (int i = 0; i <4; i++) {
