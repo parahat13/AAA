@@ -31,13 +31,13 @@ public class ArrayListExample {
 		
 		list.clear();
 		
-		String[] array=list.toArray(new String[4]);
+		String[] array1=list.toArray(new String[4]);
 		Arrays.sort(array);
 		System.out.println(Arrays.binarySearch(array, "bottle"));
 		
-		List<List<Integer>> lis= new ArrayList<>();
+		List<List<Integer>> list1= new ArrayList<>();
 		
-		list.clear();
+		list1.clear();
 		
 		
 		
